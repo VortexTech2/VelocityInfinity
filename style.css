@@ -1,0 +1,181 @@
+/* Reset di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Impostazioni generali del body */
+body {
+  font-family: Corbel, sans-serif;
+  line-height: 1.6;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 20px;
+}
+
+/* Stile per l'intestazione principale */
+.title {
+  color: #00fd03;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Stile per i titoli di secondo livello */
+#INDICE {
+  font-size: 2em;
+  color: #00fd03;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Stile per i paragrafi */
+p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+#storia,#tecnologia,#competizioni{
+  color: #00fd03;
+}
+
+/* Stile per l'elemento di lista (indice) */
+.ul {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+  color: #00fd9c;
+}
+ul {
+  list-style-type: none;  /* Rimuove i pallini della lista */
+  padding: 30px 40px;             /* Rimuove il padding della lista */
+  text-align: center;     /* Centra gli elementi inline-block */
+}
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 20px;
+  width: 150px; /* Imposta la larghezza degli elementi */
+  height: 100px; /* Imposta l'altezza degli elementi */
+  font-size: 24px; /* Aumenta la dimensione del testo */
+  text-align: center; /* Centra il testo all'interno degli elementi */
+  line-height: 100px; /* Allinea verticalmente il testo */
+}
+
+
+ul li a {
+
+  text-decoration: none;
+  color: #00fd03;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  text-align: center;
+  color: #00fd03;
+}
+
+/* Stile per i link */
+a {
+  text-decoration: none;
+  color: #00fd03;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Stile per le immagini */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Aggiungere margini extra ai link per la leggibilità */
+p a {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Aggiunta di un bordo per separare le sezioni */
+section {
+  margin-bottom: 30px;
+}
+
+/* Stile per i link sotto le immagini */
+.links,.link_video {
+  display: inline-block;
+  width: 45%; 
+  vertical-align: top;
+  text-align: center;
+  
+}
+.link_video{
+  margin-right: 9%;
+}
+
+.links a,.link_video a {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #00fd03;
+}
+
+.links a:hover {
+  color: #0056b3;
+}
+
+.container-links {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Stile per il footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #222;
+  color: #00fd03;
+}
+p{
+  text-align: center;
+}
+/* Impedisce lo scroll orizzontale e adatta il layout */
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Rende le immagini adattabili */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adatta il contenitore per evitare che sia troppo largo su schermi piccoli */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Media query per schermi piccoli (max 768px, tipico di smartphone e tablet) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%; /* Le immagini occupano tutto lo spazio disponibile */
+  }
+}
