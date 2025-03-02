@@ -1,0 +1,176 @@
+/* Reset di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Impostazioni generali del body */
+body {
+  font-family: Corbel, sans-serif;
+  line-height: 1.6;
+  background-color: #000000;
+  color: #ffffff;
+  max-width: 100%;
+}
+
+/* Stile per i titoli */
+.title, #INDICE {
+  color: #00fd03;
+  text-align: center;
+}
+/* Reset di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Impostazioni generali del body */
+body {
+  font-family: Corbel, sans-serif;
+  line-height: 1.6;
+  background-color: #000000;
+  color: #ffffff;
+  max-width: 100%;
+  padding: 20px;
+}
+
+/* Stile per i titoli generali */
+.title {
+  color: #00fd03;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#INDICE {
+  color: #00fd03;
+  text-align: center; /* Manteniamo l'allineamento centrale per l'indice */
+  margin-top: 40px;
+}
+
+/* Stile per i titoli di sezione (storia, tecnologia, competizioni) */
+#storia, #tecnologia, #competizioni {
+  color: #00fd03;
+  text-align: left; /* Allinea a sinistra */
+  margin-left: 10px; /* Aggiungi un piccolo margine a sinistra */
+  font-size: 2em;
+}
+
+#INDICE {
+  font-size: 2em;
+  margin-top: 40px;
+}
+
+/* Paragrafi */
+p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Menu navigazione */
+.ul, ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 20px;
+  width: 150px;
+  height: 100px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #00fd03;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #0056b3;
+}
+
+/* Stile per le immagini */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contenitore principale */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Link sotto immagini */
+.links, .link_video {
+  display: inline-block;
+  width: 45%; 
+  text-align: center;
+}
+
+.link_video {
+  margin-right: 9%;
+}
+
+.links a, .link_video a {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #00fd03;
+}
+
+.links a:hover {
+  color: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #222;
+  color: #00fd03;
+}
+
+/* --- 📱 Responsive Design --- */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  /* Menu più compatto su mobile */
+  ul li {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 18px;
+    line-height: normal;
+    display: block;
+  }
+
+  .links, .link_video {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
